@@ -1,6 +1,6 @@
 .card-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-color: #95dada;
   border: 1px solid grey;
   border-radius: 5px;
@@ -9,8 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translatez(0);
-  transition: transform 0.25s ease-out;
+  transition: transform 0.35s ease-out;
 }
 .card-container:hover {
   transform: scale(1.05);
+  filter: saturate(90%);
+  box-shadow: 10px 10px 10px 10px, -10px -10px 10px 10px;
 }
